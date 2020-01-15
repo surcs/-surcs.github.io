@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on SURC</title>
@@ -17,7 +17,7 @@
       <pubDate>Wed, 09 Oct 2019 15:52:07 +0800</pubDate>
       
       <guid>https://surcs.github.io/hugo/push/</guid>
-      <description>hugo --theme=surc --baseUrl=&amp;quot;https://surcs.github.io/&amp;quot; --buildDrafts cd public git add .  git commit -m &amp;quot;add hugo syntax&amp;quot;  git push  cd ..  </description>
+      <description>hugo --theme=surc --baseUrl=&amp;quot;https://surcs.github.io/&amp;quot; --buildDrafts cd public git add . git commit -m &amp;quot;add hugo syntax&amp;quot; git push cd .. </description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       
       <guid>https://surcs.github.io/hugo/run/</guid>
       <description>run locally
-hugo server --theme=surc --buildDrafts  It will be run here local server</description>
+hugo server --theme=surc --buildDrafts It will be run here local server</description>
     </item>
     
   </channel>

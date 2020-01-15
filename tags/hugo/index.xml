@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on SURC</title>
@@ -17,7 +17,7 @@
       <pubDate>Wed, 09 Oct 2019 14:51:10 +0800</pubDate>
       
       <guid>https://surcs.github.io/markdown/tag/</guid>
-      <description> Markdown --- title: &amp;quot;Tag&amp;quot; date: 2019-10-09T14:51:10+08:00 weight : 12 tags : [&amp;quot;hugo&amp;quot;,&amp;quot;markdown&amp;quot;] ---  </description>
+      <description>Markdown --- title: &amp;#34;Tag&amp;#34; date: 2019-10-09T14:51:10+08:00 weight : 12 tags : [&amp;#34;hugo&amp;#34;,&amp;#34;markdown&amp;#34;] --- </description>
     </item>
     
     <item>
@@ -26,11 +26,11 @@
       <pubDate>Wed, 09 Oct 2019 14:59:38 +0800</pubDate>
       
       <guid>https://surcs.github.io/markdown/notice/</guid>
-      <description> Note {{% notice note %}} a notice {{% /notice %}}  a notice
-Info {{% notice info %}} a info {{% /notice %}}  a info
-Tip {{% notice tip %}} a tip {{% /notice %}}  a tip
-Warning {{% notice warning %}} a warning {{% /notice %}}  a warning
-</description>
+      <description>Note {{% notice note %}} a notice {{% /notice %}}  a notice
+ Info {{% notice info %}} a info {{% /notice %}}  a info
+ Tip {{% notice tip %}} a tip {{% /notice %}}  a tip
+ Warning {{% notice warning %}} a warning {{% /notice %}}  a warning
+ </description>
     </item>
     
   </channel>

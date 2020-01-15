@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.58.3" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="description" content="">
 
 
@@ -12,20 +12,20 @@
     <title>Code :: SURC</title>
 
     
-    <link href="/css/nucleus.css?1578990067" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1578990067" rel="stylesheet">
-    <link href="/css/hybrid.css?1578990067" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1578990067" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1578990067" rel="stylesheet">
-    <link href="/css/auto-complete.css?1578990067" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1578990067" rel="stylesheet">
-    <link href="/css/theme.css?1578990067" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1578990067" rel="stylesheet">
+    <link href="/css/nucleus.css?1579101783" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1579101783" rel="stylesheet">
+    <link href="/css/hybrid.css?1579101783" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1579101783" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1579101783" rel="stylesheet">
+    <link href="/css/auto-complete.css?1579101783" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1579101783" rel="stylesheet">
+    <link href="/css/theme.css?1579101783" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1579101783" rel="stylesheet">
     
-      <link href="/css/theme-mine.css?1578990067" rel="stylesheet">
+      <link href="/css/theme-mine.css?1579101783" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1578990067"></script>
+    <script src="/js/jquery-3.3.1.min.js?1579101783"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -78,14 +78,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1578990067"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1578990067"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1579101783"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1579101783"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/surcs.github.io\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1578990067"></script>
+<script type="text/javascript" src="/js/search.js?1579101783"></script>
 
     
   </div>
@@ -939,41 +939,23 @@
                     <div class="progress">
     <div class="wrapper">
 <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#inline-code">Inline Code</a>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#renders-to">renders to:</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><a href="#indented-code">Indented Code</a>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#renders-to-1">renders to:</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><a href="#code-fence">Code Fence</a>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#renders-to-2">renders to:</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#inline-code">Inline Code</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#indented-code">Indented Code</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#code-fence">Code Fence</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
 </div>
@@ -998,94 +980,48 @@
 
 
 
-
-
 <h2 id="inline-code">Inline Code</h2>
-
 <p>markdown</p>
-
-<pre><code class="language-markdown">For example, `this is the code` in the sentence ( using `` ` ``).
-</code></pre>
-
-<p>html</p>
-
-<pre><code class="language-html">&lt;p&gt;For example, &lt;code&gt;this is the code&lt;/code&gt;&lt;/p&gt;
-</code></pre>
-
-<h5 id="renders-to">renders to:</h5>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">For example, <span style="color:#e6db74">`this is the code`</span> in the sentence ( using `` <span style="color:#e6db74">` `</span>`).
+</code></pre></div><p>html</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">p</span>&gt;For example, &lt;<span style="color:#f92672">code</span>&gt;this is the code&lt;/<span style="color:#f92672">code</span>&gt;&lt;/<span style="color:#f92672">p</span>&gt;
+</code></pre></div><h5 id="renders-to">renders to:</h5>
 <p>For example, <code>this is the code1</code> in the sentence ( using <code>`</code> ).</p>
-
-<p>For example, <code>this is the code2</code></p>
-
-<hr />
-
+<!-- raw HTML omitted -->
+<hr>
 <h2 id="indented-code">Indented Code</h2>
-
 <p>markdown</p>
-
-<pre><code class="language-markdown">  line 1 of code (indent several lines of code by at least four spaces)
-</code></pre>
-
-<p>html</p>
-
-<pre><code class="language-html">&lt;pre&gt;&lt;code&gt;line 1 of code
-line 2 of code&lt;/code&gt;&lt;/pre&gt;
-</code></pre>
-
-<h5 id="renders-to-1">renders to:</h5>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">  line 1 of code (indent several lines of code by at least four spaces)
+</code></pre></div><p>html</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">pre</span>&gt;&lt;<span style="color:#f92672">code</span>&gt;line 1 of code
+line 2 of code&lt;/<span style="color:#f92672">code</span>&gt;&lt;/<span style="color:#f92672">pre</span>&gt;
+</code></pre></div><h5 id="renders-to-1">renders to:</h5>
 <pre><code>line 1 of code (indent several lines of code by at least four spaces)
 </code></pre>
-
-<pre><code>line 1 of code
-line 2 of code</code></pre>
-
-<hr />
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<hr>
 <h2 id="code-fence">Code Fence</h2>
-
 <p>markdown</p>
-
-<pre><code>```
-public class HelloWorld1 {
-    public static void main(String[] args) {
-        System.out.println("Hello, World");
-    }
-
-}
-```</code></pre>
-
-<pre><code>```java
-public class HelloWorld2 {
-    public static void main(String[] args) {
-        System.out.println("Hello, World");
-    }
-
-}
-```</code></pre>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <h5 id="renders-to-2">renders to:</h5>
-
 <pre><code>public class HelloWorld1 {
     public static void main(String[] args) {
         System.out.println(&quot;Hello, World&quot;);
     }
 
 }
-</code></pre>
-
-<p>PS: (Syntax highlighting) simply add the file extension of the language you want to use directly after <strong>```</strong></p>
-
+</code></pre><p>PS: (Syntax highlighting) simply add the file extension of the language you want to use directly after <strong>```</strong></p>
 <p>but here it seem not working !???</p>
-
-<pre><code class="language-java">public class HelloWorld2 {
-    public static void main(String[] args) {
-        System.out.println(&quot;Hello, World&quot;);
-    }
-}
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld2</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[</span><span style="color:#f92672">]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello, World&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div>
 
 <footer class=" footline" >
 	
@@ -1683,19 +1619,19 @@ public class HelloWorld2 {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1578990067"></script>
-    <script src="/js/perfect-scrollbar.min.js?1578990067"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1578990067"></script>
-    <script src="/js/jquery.sticky.js?1578990067"></script>
-    <script src="/js/featherlight.min.js?1578990067"></script>
-    <script src="/js/highlight.pack.js?1578990067"></script>
+    <script src="/js/clipboard.min.js?1579101783"></script>
+    <script src="/js/perfect-scrollbar.min.js?1579101783"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1579101783"></script>
+    <script src="/js/jquery.sticky.js?1579101783"></script>
+    <script src="/js/featherlight.min.js?1579101783"></script>
+    <script src="/js/highlight.pack.js?1579101783"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1578990067"></script>
-    <script src="/js/learn.js?1578990067"></script>
-    <script src="/js/hugo-learn.js?1578990067"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1579101783"></script>
+    <script src="/js/learn.js?1579101783"></script>
+    <script src="/js/hugo-learn.js?1579101783"></script>
 
-    <link href="/mermaid/mermaid.css?1578990067" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1578990067"></script>
+    <link href="/mermaid/mermaid.css?1579101783" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1579101783"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
